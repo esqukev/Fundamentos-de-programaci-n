@@ -1,0 +1,59 @@
+.body{
+    background-color: blanchedalmond;
+    background-size: cover;
+    height: 500px;
+}
+
+.header {
+    padding: 40px;
+    background-color: rgba(147, 191, 123, 0.61);
+    box-shadow: 0 8px 32px 0 rgba(135, 133, 133, 0.95);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(147, 191, 123, 0.133);
+}
+
+.header-left {
+    font-size: 25px;
+    margin-left: 40px;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0%;
+}
+
+.sesion {
+    padding: 8px;
+    background-color: rgba(40, 181, 172, 0.882);
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.sesion:hover {
+    background-color: rgba(56, 117, 143, 0.786);
+    transition: 1.5s;
+}
+
+.fondo2{
+    background-size: cover;
+}
+
+
+.footer {
+    background-color: rgba(117, 184, 81, 0.442);
+    padding: 30px;
+    border: none;
+    box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.95);
+    backdrop-filter: blur(2px);
+}
+
+.iconos-footer {
+    font-size: 8px;
+    border: none;
+    background-color: rgba(65, 104, 36, 0);
+    
+}
+
