@@ -1,0 +1,53 @@
+.header {
+    background-color: rgb(25, 153, 125);
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+.footer {
+    background-color: rgb(25, 153, 125);
+    padding: 25px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+.derechos {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+
+.fondo {
+    padding: 100px;
+}
+
+
+.titulo {
+    font-size: 35px;
+    font-weight: bold;
+    color:black
+}
+
+.boton {
+    background-color: rgb(25, 153, 125);
+    border: none;
+}
+
+.boton:hover {
+    background-color: rgb(95, 161, 236);
+    border: none;
+}
+
+.boton2 {
+    background-color: rgb(25, 153, 125);
+    border: none;
+}
+
+.boton2:hover {
+    background-color: rgb(236, 95, 95);
+    border: none;
+}
+
+
+
+
+

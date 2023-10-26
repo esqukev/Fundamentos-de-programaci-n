@@ -1,0 +1,63 @@
+.header {
+    background-color: rgb(25, 153, 125);
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+
+
+.footer {
+    background-color: rgb(25, 153, 125);
+    padding: 25px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+.derechos {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(3, 162, 162);
+}
+
+p {
+    font-size: 22px;
+    font-weight: light;
+}
+
+.formatos1 {
+    color: rgb(25, 153, 125);
+}
+
+.boton {
+    background-color:  rgb(25, 153, 125);
+}
+
+.boton:hover {
+    background-color:  rgb(149, 98, 237);
+}
+
+.inicio {
+    border-bottom: 1px solid rgb(25, 153, 125);
+}
+
+.nova {
+    padding: 80px 100px;
+}
+
+
+select {
+    width: 100%;
+    padding: 3px 20px;
+}
+
+footer {
+    background-color: #000;
+    font-size: 30px;
+    padding: 40px 40px;
+    margin-top: 100px;
+}

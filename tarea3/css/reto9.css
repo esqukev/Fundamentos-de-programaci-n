@@ -1,0 +1,120 @@
+.header {
+    background-color: rgb(25, 153, 125);
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+.footer {
+    background-color: rgb(25, 153, 125);
+    padding: 25px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+.derechos {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.banner {
+    background-image: url("../imagenes/bannerplaya.jpg");
+    padding: 400px;
+    background-image: cover;
+    background-image: center;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(42, 41, 41, 0.247);
+    background-attachment: fixed;
+}
+
+.fondo {
+    padding: 250px;
+}
+
+
+.titulo {
+    font-size: 35px;
+    font-weight: bold;
+    color:black
+}
+
+.hotel {
+    font-size: 50px;
+    font-weight: bolder;
+    color: beige;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.596);
+}
+
+.box_user {
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    flex-shrink: 0%;
+    background-color: rgba(22, 122, 101, 0.575);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(9, 9, 9, 0.18);
+
+}
+
+.box-content {
+    margin-top: 35px;
+    flex-shrink: 0%;
+}
+
+input[name="r"][value="dato1"],
+[value="dato2"],
+[value="dato3"],
+[value="dato4"] {
+    margin: 12px 10px;
+    transform: scale(0.8);
+}
+
+
+/*colores del radio con pseudoclases = mascara*/
+
+input[type="radio"]:after {
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    left: -1px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px 2px solid #000;
+}
+
+input[type="radio"]:checked:after {
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    left: -1px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #910f96;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #000;
+}
+
+.botonicon {
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.titulo2{
+    color: black;
+    font-weight: bolder;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.351);
+    font-size: 45px;
+}
+
+i{
+    color: black;
+    font-size: 35px;
+}
+
+

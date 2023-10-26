@@ -1,0 +1,40 @@
+.header {
+    background-color: rgb(25, 153, 125);
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+.fondo1{
+    padding: 175px;
+    background-color: grey;
+}
+
+
+.fondo{
+    padding: 150px;
+    background-color: grey;
+}
+
+
+
+.footer {
+    background-color: rgb(25, 153, 125);
+    padding: 25px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+.derechos {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.titulo {
+    font-size: 45px;
+    color: white;
+}
+
+.titulo2 {
+    color: white;
+    font-weight: light;
+}
+

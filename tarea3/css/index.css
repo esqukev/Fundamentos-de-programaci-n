@@ -1,0 +1,53 @@
+.header {
+    background-color: rgb(25, 153, 125);
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250) !important;
+}
+
+
+.container-fluid1 {
+    background-image: url("../imagenes/background.jpg");
+    background-image: cover;
+    background-image: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #92837248;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(42, 41, 41, 0.247);
+}
+
+
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.boton1 {
+    padding: 8px;
+    background-color: rgb(25, 153, 125);
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px rgba(251, 250, 250, 0.292);
+}
+
+.boton1:hover {
+    background-color: rgb(195, 195, 74);
+    transition: 0.25s;
+}
+
+.footer {
+    background-color: rgb(25, 153, 125);
+    padding: 25px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+.derechos {
+    font-size: 22px;
+    font-weight: bolder;
+}
+

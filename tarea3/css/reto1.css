@@ -1,0 +1,60 @@
+.header {
+    background-color: rgb(25, 153, 125);
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+.banner {
+    background-image: url("../imagenes/reto1bg.jpg");
+    background-image: cover;
+    background-image: center;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(42, 41, 41, 0.247);
+}
+
+
+.footer {
+    background-color: rgb(25, 153, 125);
+    padding: 25px;
+    box-shadow: 10px 10px 10px 10px rgb(251, 250, 250);
+}
+
+.derechos {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.box_user {
+    border-radius: 20px;
+    width: 500px;
+    height: 490px;
+    flex-shrink: 0%;
+    background-color: rgba(44, 167, 140, 0.185);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(9, 9, 9, 0.18);
+
+}
+
+.box-content {
+    margin-top: 35px;
+    flex-shrink: 0%;
+}
+
+.highlight {
+    color: aqua;
+}
+
+.entrar {
+    background-color: rgba(58, 228, 228, 0.233);
+    border-color: rgba(58, 211, 211, 0.774);
+}
+
+.entrar:hover {
+    background-color: rgba(66, 226, 173, 0.396);
+    border-color: rgba(66, 226, 173, 0.616);
+}
+
+.error {
+    border: red solid 1px;
+}

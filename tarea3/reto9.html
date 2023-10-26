@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CENFOTEC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="imagenes/favicon.png" rel="icon">
+    <!-- Carga del framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reto9.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+    </header>
+
+
+
+    <section class="banner">
+        <h1 class="hotel text-center">BIENVENIDOS AL HOTEL PUNTA MONA</h1>
+    </section>
+
+    <section class="container fondo">
+
+        <h2 class="titulo text-center pb-5">SLECCIONE LA HABITACIÓN QUE DESEA OBSERVAR</h2>
+
+        <form class="text-center pt-1">
+            <!-- radios -->
+            <label>
+            <input type="radio" name="r" value="dato1"  onclick="contenido1()"> Habitación individual
+            </label>
+            <label>
+            <input type="radio" name="r" value="dato2" onclick="contenido2()"> Habitación doble
+            </label>
+            <label>
+                <input type="radio" name="r" value="dato3" onclick="contenido3()"> Habitación queen
+            </label>
+            <label>
+                <input type="radio" name="r" value="dato4" onclick="contenido4()"> Habitación king
+            </label>
+
+
+                                <!-- contenido del radio1 -->
+                                <div id="conte1" style="display: none">
+                                    <div class="pt-3"></div>
+                                    <img src="imagenes/individual.jpg" alt="logo" class="img-fluid">
+                                </div>
+
+                                <!-- contenido del radio2 -->
+                                <div id="conte2" style="display: none">
+                                    <div class="pt-3"></div>
+                                    <img src="imagenes/doble.jpg" alt="logo" class="img-fluid">
+                                </div>
+
+                                <!-- contenido del radio2 -->
+                                <div id="conte3" style="display: none">
+                                    <div class="pt-3"></div>
+                                    <img src="imagenes/queen.jpeg" alt="logo" class="img-fluid">
+                                </div>
+
+                                <!-- contenido del radio4 -->
+                                <div id="conte4" style="display: none">
+                                    <div class="pt-3"></div>
+                                    <img src="imagenes/king.jpeg" alt="logo" class="img-fluid">
+                                </div>
+
+
+        </form>
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="">
+            <h2 class="text-center derechos">UNIVERSIDAD CENFOTEC</h2>
+            <div>
+        </div>
+    </footer>
+
+
+    <!-- Carga de elementos interactivos -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script> 
+
+    <script src="js/reto9.js"></script>
+
+    </body>
+    </html>
